@@ -1,7 +1,7 @@
-pamac install --no-confirm datagrip
-pamac install --no-confirm code
-pamac install --no-confirm postman-bin
-pamac install --no-confirm spring-tool-suite
+yay -S --noconfirm datagrip
+yay -S --noconfirm code
+yay -S --noconfirm postman-bin
+yay -S --noconfirm spring-tool-suite
 
 
 sudo pacman --noconfirm -Syu jdk-openjdk docker eclipse-ecj python git npm opera chromium firefox calibre filezilla steam wireshark
